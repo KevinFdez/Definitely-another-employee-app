@@ -1,0 +1,10 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+h1,
+p,
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

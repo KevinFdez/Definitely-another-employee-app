@@ -1,0 +1,38 @@
+<div class="filter-box">
+  <form [formGroup]="employeeFilterForm">
+
+    <mat-form-field>
+      <mat-label i18n="employee filter name field@@employeeFilterNameField">Nombre</mat-label>
+      <input matInput type="text" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label i18n="employee filter lastname field@@employeeFilterLastnameField">Apellidos</mat-label>
+      <input matInput type="text" formControlName="lastname">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label i18n="employee filter department field@@employeeFilterDepartmentField">Departamento</mat-label>
+      <mat-select formControlName="departmentId">
+        <mat-option *ngFor="let department of departments" [value]="department.id">
+          {{department.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label i18n="employee filter date field@@employeeFilterDateField">Antigüedad en empresa</mat-label>
+      <input matInput [matDatepicker]="picker" formControlName="startingDate">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+  </form>
+
+  <div class="action-buttons">
+    <button mat-raised-button color="accent" (click)="onClickFilterBtn()"
+      i18n="employee filter filter button@@employeeFilterFilterButton">Filtrar</button>
+    <button mat-raised-button color="accent" (click)="onClickResetBtn()"
+      i18n="employee filter clear button@@employeeFilterClearButton">Limpiar</button>
+  </div>
+</div>

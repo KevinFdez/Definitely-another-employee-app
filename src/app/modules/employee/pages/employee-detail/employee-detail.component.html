@@ -1,0 +1,97 @@
+<div class="main-layout">
+
+  <button mat-button color="accent" [routerLink]="['/list']">
+    <mat-icon class="back-icon" aria-hidden="false" aria-label="Back button">arrow_back_ios</mat-icon>
+    <span i18n="employee detail page back button@@employeeDetailPageBackButton">Volver</span>
+  </button>
+
+  <div class="inner-box">
+
+    <h1 *ngIf="undefined === employee" i18n="employee detail page new title@@employeeDetailPageNewTitle">Nuevo empleado
+    </h1>
+    <h1 *ngIf="undefined != employee" i18n="employee detail page edit title@@employeeDetailPageEditTitle">Editar
+      empleado {{employee.id}}</h1>
+
+    <div class="form-content-box">
+      <mat-icon class="user-icon" aria-hidden="false" aria-label="User icon">account_box</mat-icon>
+
+      <form [formGroup]="employeeForm">
+
+        <mat-form-field>
+          <mat-label i18n="employee detail page name field label@@employeeDetailPageNameFieldLabel">Nombre</mat-label>
+          <input matInput type="text" formControlName="name">
+          <mat-error *ngIf="employeeForm.controls.name.errors?.required"
+            i18n="employee detail page name field required error@@employeeDetailPageNameFieldRequiredError">
+            Campo requerido
+          </mat-error>
+          <mat-error *ngIf="employeeForm.controls.name.errors?.maxlength"
+            i18n="employee detail page name field maxlength error@@employeeDetailPageNameFieldMaxLengthError">
+            El nombre no debe exceder de 50 carácteres
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label i18n="employee detail page lastname field label@@employeeDetailPageLastnameFieldLabel">Apellidos
+          </mat-label>
+          <input matInput type="text" formControlName="lastname">
+          <mat-error *ngIf="employeeForm.controls.lastname.errors?.required"
+            i18n="employee detail page lastname field required error@@employeeDetailPageLastnameFieldRequiredError">
+            Campo requerido
+          </mat-error>
+          <mat-error *ngIf="employeeForm.controls.lastname.errors?.maxlength"
+            i18n="employee detail page lastname field maxlength error@@employeeDetailPageLastnameFieldMaxLengthError">
+            Los apellidos no deben exceder de 80 carácteres
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label i18n="employee detail page age field label@@employeeDetailPageAgeFieldLabel">Edad</mat-label>
+          <input matInput type="text" formControlName="age">
+          <mat-error *ngIf="employeeForm.controls.age.errors?.required"
+            i18n="employee detail page age field required error@@employeeDetailPageAgeFieldRequiredError">
+            Campo requerido
+          </mat-error>
+          <mat-error *ngIf="employeeForm.controls.age.errors?.invalidNumber"
+            i18n="employee detail page age field numeric error@@employeeDetailPageAgeFieldNumericError">
+            La edad debe contener valores númericos válidos
+          </mat-error>
+          <mat-error *ngIf="employeeForm.controls.age.errors?.numberMaxLength"
+            i18n="employee detail page age field maxlength error@@employeeDetailPageAgeFieldMaxLengthError">
+            La edad, en terminos laborales, no puede superar dos cifras (¿No será un ser mágico, no?)
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label i18n="employee detail page department field label@@employeeDetailPageDepartmentFieldLabel">
+            Departamento</mat-label>
+          <mat-select formControlName="departmentId">
+            <mat-option *ngFor="let department of departments" [value]="department.id">
+              {{department.name}}
+            </mat-option>
+          </mat-select>
+          <mat-error
+            i18n="employee detail page department field required error@@employeeDetailPageDepartmentFieldRequiredError">
+            Campo requerido
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field *ngIf="undefined != employee">
+          <mat-label i18n="employee detail page date field label@@employeeDetailPageDateFieldLabel">Antigüedad en
+            empresa
+          </mat-label>
+          <input matInput [matDatepicker]="picker" formControlName="startingDate">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+      </form>
+    </div>
+
+    <div class="action-buttons">
+      <button mat-raised-button color="accent" (click)="save()" [disabled]="employeeForm.invalid"
+        i18n="employee detail page save button@@employeeDetailPageSaveButton">Guardar</button>
+    </div>
+
+  </div>
+
+</div>

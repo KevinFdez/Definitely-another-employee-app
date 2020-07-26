@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  disid-prod:
+    container_name: disid-prod
+    build:
+      context: .
+      dockerfile: production.Dockerfile
+    ports:
+      - '80:80'

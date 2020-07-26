@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" 
+  xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="loadingOverlay" datatype="html">
+        <source>
+        Cargando
+        </source>
+        <target>Loading</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/sidebar/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">loading overlay</note>
+      </trans-unit>
+      <trans-unit id="moduleLoader" datatype="html">
+        <source>Cargando Módulo</source>
+         <target>Loading Module</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/sidebar/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">module loader</note>
+      </trans-unit>
+      <trans-unit id="employeeNavLink" datatype="html">
+        <source>Empleados</source>
+         <target>Employees</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/sidebar/menu-sidebar/menu-sidebar.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">employee navigation item</note>
+      </trans-unit>
+      <trans-unit id="departmentNavLink" datatype="html">
+        <source>Departamentos</source>
+        <target>Departments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/sidebar/menu-sidebar/menu-sidebar.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">department navigation item</note>
+      </trans-unit>
+      <trans-unit id="configurationSessionButton" datatype="html">
+        <source>Configuración</source>
+        <target>Configuration</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/header/components/drop-down-user-box/drop-down-user-box.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">drop down user box</note>
+      </trans-unit>
+      <trans-unit id="closeSessionButton" datatype="html">
+        <source>Cerrar sesión</source>
+        <target>Close session</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/header/components/drop-down-user-box/drop-down-user-box.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">drop down user box</note>
+      </trans-unit>
+      <trans-unit id="dialogNewDepartmentTitle" datatype="html">
+        <source>Crear nuevo departamento</source>
+        <target>Create new department</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/components/dialog-create-department/dialog-create-department.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">dialog new department title</note>
+      </trans-unit>
+      <trans-unit id="dialogNewDepartmentContent" datatype="html">
+        <source>Indique un nombre de departamento</source>
+        <target>Indicate a department name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/components/dialog-create-department/dialog-create-department.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">dialog new department content</note>
+      </trans-unit>
+      <trans-unit id="dialogNewDepartmentErrorValidator" datatype="html">
+        <source>Campo requerido</source>
+        <target>Required field</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/components/dialog-create-department/dialog-create-department.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">dialog new department field required validation</note>
+      </trans-unit>
+      <trans-unit id="dialogNewDepartmentCloseButton" datatype="html">
+        <source>Cancelar</source>
+        <target>Cancel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/components/dialog-create-department/dialog-create-department.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">dialog new department close button</note>
+      </trans-unit>
+      <trans-unit id="dialogNewDepartmentOkButton" datatype="html">
+        <source>Crear</source>
+        <target>Create</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/components/dialog-create-department/dialog-create-department.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">dialog new department ok button</note>
+      </trans-unit>
+      <trans-unit id="departmentsPageTitle" datatype="html">
+        <source>Listado de departamentos</source>
+        <target>Departments list</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/pages/departments/departments.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">departments page title</note>
+      </trans-unit>
+      <trans-unit id="departmentsPageCreateDepartmentButton" datatype="html">
+        <source>Añadir nuevo</source>
+        <target>Add new</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/pages/departments/departments.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">departments page create department button</note>
+      </trans-unit>
+      <trans-unit id="nameColDepartmentTable" datatype="html">
+        <source>Nombre</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/department/components/department-table/department-table.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">department table name col</note>
+      </trans-unit>
+      <trans-unit id="dialogDeleteEmployeeTitle" datatype="html">
+        <source>Eliminar registro</source>
+        <target>Delete entry</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-dialog-delete/employee-dialog-delete.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">dialog delete employee title</note>
+      </trans-unit>
+      <trans-unit id="dialogDeleteEmployeesTitle" datatype="html">
+        <source>Eliminar múltiples registros</source>
+        <target>Delete multiple entries</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-dialog-delete/employee-dialog-delete.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">dialog delete employees title</note>
+      </trans-unit>
+      <trans-unit id="dialogDeleteEmployeeContent" datatype="html">
+        <source>¿Seguro que desea eliminar el registro seleccionado?</source>
+    <target>Are you sure you want to delete the selected record?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-dialog-delete/employee-dialog-delete.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">dialog delete employee content</note>
+      </trans-unit>
+      <trans-unit id="dialogDeleteEmployeesContent" datatype="html">
+        <source>¿Seguro que desea eliminar los registros seleccionados?</source>
+        <target>Are you sure you want to delete the selected records?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-dialog-delete/employee-dialog-delete.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">dialog delete employees title</note>
+      </trans-unit>
+      <trans-unit id="dialogDeleteEmployeeCloseButton" datatype="html">
+        <source>Cancelar</source>
+        <target>Cancel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-dialog-delete/employee-dialog-delete.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">dialog delete employee close button</note>
+      </trans-unit>
+      <trans-unit id="dialogDeleteEmployeeDeleteButton" datatype="html">
+        <source>Eliminar</source>
+        <target>Delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-dialog-delete/employee-dialog-delete.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">dialog delete employee delete button</note>
+      </trans-unit>
+      <trans-unit id="employeePageFilterTitle" datatype="html">
+        <source>Filtro de empleados</source>
+        <target>Employees filter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employees/employees.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">employee page filter title</note>
+      </trans-unit>
+      <trans-unit id="employeePageListTitle" datatype="html">
+        <source>Listado de empleados</source>
+        <target>Employees list</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employees/employees.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">employee page list title</note>
+      </trans-unit>
+      <trans-unit id="employeePageNewButton" datatype="html">
+        <source>Añadir nuevo</source>
+        <target>Add new</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employees/employees.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">employee page new button</note>
+      </trans-unit>
+      <trans-unit id="employeePageEditButton" datatype="html">
+        <source>Editar</source>
+        <target>Edit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employees/employees.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">employee page edit button</note>
+      </trans-unit>
+      <trans-unit id="employeePageDeleteButton" datatype="html">
+        <source>Eliminar</source>
+        <target>Delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employees/employees.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">employee page delete button</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageBackButton" datatype="html">
+        <source>Volver</source>
+        <target>Back</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page back button</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageNewTitle" datatype="html">
+        <source>Nuevo empleado</source>
+        <target>New employee</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page new title</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageEditTitle" datatype="html">
+        <source>Editar empleado <x id="INTERPOLATION" equiv-text="{{employee.id}}"/>
+        </source>
+        <target>Edit employee <x id="INTERPOLATION" equiv-text="{{employee.id}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page edit title</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageNameFieldLabel" datatype="html">
+        <source>Nombre</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page name field label</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageNameFieldRequiredError" datatype="html">
+        <source>Campo requerido</source>
+        <target>Field required</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page name field required error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageNameFieldMaxLengthError" datatype="html">
+        <source>El nombre no debe exceder de 50 carácteres</source>
+        <target>The name must not exceed 50 characters</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page name field maxlength error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageLastnameFieldLabel" datatype="html">
+        <source>Apellidos</source>
+        <target>Lastname</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page lastname field label</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageLastnameFieldRequiredError" datatype="html">
+        <source>Campo requerido</source>
+        <target>Field required</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page lastname field required error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageLastnameFieldMaxLengthError" datatype="html">
+        <source>Los apellidos no deben exceder de 80 carácteres</source>
+        <target>The lastname must not exceed 80 characters</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page lastname field maxlength error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageAgeFieldLabel" datatype="html">
+        <source>Edad</source>
+        <target>Age</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page age field label</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageAgeFieldRequiredError" datatype="html">
+        <source>Campo requerido</source>
+        <target>Field required</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page age field required error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageAgeFieldNumericError" datatype="html">
+        <source>La edad debe contener valores númericos válidos</source>
+        <target>Age must contain valid numerical values</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page age field numeric error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageAgeFieldMaxLengthError" datatype="html">
+        <source>La edad, en terminos laborales, no puede superar dos cifras (¿No será un ser mágico, no?)</source>
+        <target>Age, in labor terms, cannot exceed two figures (It won't be a magical being, right?)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page age field maxlength error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageDepartmentFieldLabel" datatype="html">
+        <source>Departamento</source>
+        <target>Department</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page department field label</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageDepartmentFieldRequiredError" datatype="html">
+        <source>Campo requerido</source>
+        <target>Field required</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page department field required error</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageDateFieldLabel" datatype="html">
+        <source>Antigüedad en empresa</source>
+        <target>Starting date at company</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page date field label</note>
+      </trans-unit>
+      <trans-unit id="employeeDetailPageSaveButton" datatype="html">
+        <source>Guardar</source>
+        <target>Save</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/pages/employee-detail/employee-detail.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <note priority="1" from="description">employee detail page save button</note>
+      </trans-unit>
+      <trans-unit id="employeeFilterNameField" datatype="html">
+        <source>Nombre</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-filter/employee-filter.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">employee filter name field</note>
+      </trans-unit>
+      <trans-unit id="employeeFilterLastnameField" datatype="html">
+        <source>Apellidos</source>
+        <target>Lastname</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-filter/employee-filter.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">employee filter lastname field</note>
+      </trans-unit>
+      <trans-unit id="employeeFilterDepartmentField" datatype="html">
+        <source>Departamento</source>
+        <target>Department</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-filter/employee-filter.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">employee filter department field</note>
+      </trans-unit>
+      <trans-unit id="employeeFilterDateField" datatype="html">
+        <source>Antigüedad en empresa</source>
+        <target>Starting date at company</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-filter/employee-filter.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">employee filter date field</note>
+      </trans-unit>
+      <trans-unit id="employeeFilterFilterButton" datatype="html">
+        <source>Filtrar</source>
+        <target>Filter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-filter/employee-filter.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">employee filter filter button</note>
+      </trans-unit>
+      <trans-unit id="employeeFilterClearButton" datatype="html">
+        <source>Limpiar</source>
+        <target>Clear</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-filter/employee-filter.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">employee filter clear button</note>
+      </trans-unit>
+      <trans-unit id="employeeTableNameCol" datatype="html">
+        <source>Nombre</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-table/employee-table.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">employee table name col</note>
+      </trans-unit>
+      <trans-unit id="employeeTableLastnameCol" datatype="html">
+        <source>Apellidos</source>
+        <target>Lastname</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-table/employee-table.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">employee table lastname col</note>
+      </trans-unit>
+      <trans-unit id="employeeTableAgeCol" datatype="html">
+        <source>Edad</source>
+        <target>Age</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-table/employee-table.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">employee table age col</note>
+      </trans-unit>
+      <trans-unit id="employeeTableDateCol" datatype="html">
+        <source>Fecha de Alta</source>
+        <target>Starting date</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/employee/components/employee-table/employee-table.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">employee table date col</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

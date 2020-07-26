@@ -1,0 +1,7 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+.active-list-item {
+  color: mat-color($di-ge-em-app-primary, default) !important;
+  background: mat-color($di-ge-em-app-primary, darker);
+  font-weight: 500;
+}

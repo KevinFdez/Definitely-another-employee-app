@@ -1,0 +1,17 @@
+<h1 mat-dialog-title i18n="dialog new department title@@dialogNewDepartmentTitle">Crear nuevo departamento</h1>
+
+<mat-dialog-content>
+  <p i18n="dialog new department content@@dialogNewDepartmentContent">Indique un nombre de departamento</p>
+  <mat-form-field>
+    <input matInput type="text" [formControl]="department">
+    <mat-error i18n="dialog new department field required validation@@dialogNewDepartmentErrorValidator">Campo requerido
+    </mat-error>
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close
+    i18n="dialog new department close button@@dialogNewDepartmentCloseButton">Cancelar</button>
+  <button mat-button [mat-dialog-close]="department.value" [disabled]="!department.value"
+    i18n="dialog new department ok button@@dialogNewDepartmentOkButton">Crear</button>
+</mat-dialog-actions>

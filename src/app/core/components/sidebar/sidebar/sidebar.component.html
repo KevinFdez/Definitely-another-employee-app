@@ -1,0 +1,24 @@
+<mat-sidenav-container>
+
+  <mat-sidenav mode='side' opened>
+    <app-menu-sidebar></app-menu-sidebar>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="main-content" id="sidenavMainContent">
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <div id="loadingOverlay">
+      <div class="loading-overlay-content" i18n="loading overlay@@loadingOverlay">
+        Cargando
+      </div>
+    </div>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+<div *ngIf="isShowingRouteLoadIndicator" class="router-load-indicator" i18n="module loader@@moduleLoader">
+  Cargando Módulo
+</div>

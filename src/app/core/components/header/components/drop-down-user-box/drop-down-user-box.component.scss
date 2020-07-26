@@ -1,0 +1,42 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+mat-expansion-panel {
+  &.mat-expanded {
+    margin-top: 69px;
+  }
+
+  mat-expansion-panel-header {
+    padding: 0 14px;
+  }
+
+  .user-detail-box {
+    margin-left: 10px;
+    line-height: 1.2;
+
+    .username {
+      font-size: 1.1em;
+    }
+
+    .role {
+      font-size: 0.7em;
+    }
+  }
+
+  .user-action-icon {
+    font-size: 1.1em;
+    width: 1em;
+    height: 1em;
+    vertical-align: sub;
+  }
+
+  .user-action-text {
+    margin-left: 8px;
+    font-size: 1em;
+  }
+
+  .user-icon {
+    font-size: 2.2em;
+    width: 1.0em;
+    height: 1.0em;
+  }
+}

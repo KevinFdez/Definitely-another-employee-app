@@ -1,0 +1,24 @@
+<div class="main-layout">
+
+  <h1 i18n="employee page filter title@@employeePageFilterTitle">Filtro de empleados</h1>
+
+  <app-employee-filter></app-employee-filter>
+
+  <br>
+
+  <h1 i18n="employee page list title@@employeePageListTitle">Listado de empleados</h1>
+
+  <div class="buttons-box">
+    <div>
+      <button mat-raised-button color="accent" [routerLink]="['/employees/create']"
+        i18n="employee page new button@@employeePageNewButton">Añadir nuevo</button>
+      <button mat-raised-button color="accent" [disabled]="editBtnDisabled" (click)="onClickEditEmpBtn()"
+        i18n="employee page edit button@@employeePageEditButton">Editar</button>
+      <button mat-raised-button color="accent" [disabled]="deleteBtnDisabled"
+        (click)="onClickDeleteEmpBtn()" i18n="employee page delete button@@employeePageDeleteButton">Eliminar</button>
+    </div>
+  </div>
+
+  <app-employee-table (selectedEmployee)="onEmployeeSelected($event)"></app-employee-table>
+
+</div>

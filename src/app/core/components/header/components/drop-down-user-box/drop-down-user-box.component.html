@@ -1,0 +1,25 @@
+<mat-expansion-panel color="accent">
+
+  <mat-expansion-panel-header>
+    <mat-icon class="user-icon" aria-hidden="false" aria-label="User icon">account_box</mat-icon>
+
+    <div class="user-detail-box">
+      <div class="username">{{user?.username}}</div>
+      <div class="role">{{user?.rol}}</div>
+    </div>
+  </mat-expansion-panel-header>
+
+  <mat-divider></mat-divider>
+
+  <!-- Lista desplegable de opciones -->
+  <button mat-button>
+    <mat-icon class="user-action-icon" aria-hidden="false" aria-label="Configuration button">settings_applications</mat-icon>
+    <span class="user-action-text" i18n="drop down user box@@configurationSessionButton">Configuración</span>
+  </button>
+
+  <button mat-button>
+    <mat-icon class="user-action-icon" aria-hidden="false" aria-label="Close session button">exit_to_app</mat-icon>
+    <span class="user-action-text" i18n="drop down user box@@closeSessionButton">Cerrar sesión</span>
+  </button>
+
+</mat-expansion-panel>

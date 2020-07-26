@@ -1,0 +1,84 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+mat-sidenav-container {
+  height: calc(100% - 4rem);
+  margin-top: 64px;
+}
+
+mat-sidenav,
+mat-sidenav-content {
+  padding: 0rem;
+  background-color: #fff;
+}
+
+mat-sidenav {
+  width: 13.5rem;
+}
+
+.main-content {
+  padding: 1.6rem;
+}
+
+@keyframes router-load-indicator-animation {
+  from {
+    opacity: 0.0;
+  }
+
+  to {
+    opacity: 1.0;
+  }
+}
+
+.router-load-indicator {
+  // Se retrasa la animación para una velocidad de carga (internet) rápida.
+  animation-delay: 200ms;
+  animation-duration: 200ms;
+  animation-fill-mode: both;
+  animation-name: router-load-indicator-animation;
+  background-color: mat-color($di-ge-em-app-accent, default);
+  box-shadow: 0px 0px 10px mat-color($di-ge-em-app-accent, default);
+  color: #fff;
+  top: 12%;
+  border-radius: 2px;
+  border-bottom: 2px solid mat-color($di-ge-em-app-primary, default);
+  font-family: monospace;
+  font-size: 1.1em;
+  left: 50%;
+  padding: 7px 15px 7px 15px;
+  position: fixed;
+  text-transform: lowercase;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+#loadingOverlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  cursor: wait;
+
+  div.loading-overlay-content {
+    border-color: #e1e1e1;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #d5d5d5;
+    background-color: #fbfbfb;
+    color: #222;
+    top: 50%;
+    left: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    width: 90px;
+    padding: 7px 15px 7px 15px;
+    position: fixed;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+}

@@ -1,0 +1,37 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+.main-layout {
+  background-color: #FFF;
+  padding: 22px;
+  @include base-shadow-box;
+
+  .inner-box {
+    padding: 16px;
+
+    .form-content-box {
+      display: flex;
+      width: 50%;
+      min-width: 500px;
+
+      mat-icon {
+        font-size: 6em;
+        width: 1em;
+        height: 1em;
+        padding: 0px 24px 0px 0px;
+      }
+
+      form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 14px;
+      }
+    }
+
+    .action-buttons {
+      text-align: right;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+mat-toolbar {
+  @include not-selectable;
+
+  box-shadow: 0px 3px 5px -1px #00000033,
+    0px 6px 10px 0px #00000024,
+    0px 1px 18px 0px #0000001f;
+  position: absolute;
+  z-index: 2;
+
+  .logo {
+    width: 240px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+}

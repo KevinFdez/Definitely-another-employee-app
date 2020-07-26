@@ -1,0 +1,22 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+.filter-box {
+  @include base-shadow-box;
+  padding: 24px;
+
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .action-buttons {
+    text-align: right;
+    margin-top: 20px;
+
+    button:first-child {
+      margin-right: 10px;
+    }
+  }
+}

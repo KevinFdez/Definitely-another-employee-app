@@ -1,0 +1,23 @@
+@import 'src/styles/di-ge-em-app-theme.scss';
+
+.main-layout {
+  background-color: #FFF;
+
+  .buttons-box {
+    height: 4em;
+    min-width: 100px;
+    width: 100%;
+
+    >div {
+      float: right;
+    }
+
+    >div button {
+      margin-left: 10px;
+      color: #FFF;
+      font-size: 1em;
+      padding: 5px 15px 5px 15px;
+    }
+
+  }
+}
